@@ -1,0 +1,13 @@
+{
+    "name": "express-node-aws-ec2",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "4.17.1",
+        "pm2" : "4.5.6"
+    },
+    "scripts": {
+
+        "stop": "pm2 stop all",
+        "start": "pm2 start app.js"
+      }
+}
